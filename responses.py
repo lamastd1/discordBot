@@ -15,6 +15,8 @@ def get_response(user_input: str) -> str:
 		return 'Not Ned that\'s for sure'
 	elif 'roll dice' in lowered:
 		return f'You rolled: {randint(1, 6)}'
+	elif 'temp' in lowered:
+		return 'you set up the branches good'
 	else:
 		return choice(['I do not understand...',
 			'What are you talking about?',
