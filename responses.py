@@ -10,9 +10,9 @@ def get_response(user_input: str) -> str:
 	elif 'how are you' in lowered:
 		return 'Good, thanks!'
 	elif 'bye' in lowered:
-		return 'See you!'
+		return 'Scram Kid!'
 	elif 'who is king' in lowered:
-		return 'NED IS KING'
+		return 'Not Ned that\'s for sure'
 	elif 'roll dice' in lowered:
 		return f'You rolled: {randint(1, 6)}'
 	else:
